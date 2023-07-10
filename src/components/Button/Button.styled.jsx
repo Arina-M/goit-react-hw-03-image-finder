@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 export const ButtonLoad = styled.button`
   margin: 0 auto;
   padding: 15px 25px;
-  border-radius: 30px;
-  background-color: #15cfaa;
+  border-radius: 6px;
+  background-color: rgb(63, 81, 181);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: block;
@@ -22,6 +22,6 @@ export const ButtonLoad = styled.button`
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     &:hover,
     &:focus {
-      background-color: #38ada4;
+      background-color: rgb(70, 90, 189);
     }
 `;
